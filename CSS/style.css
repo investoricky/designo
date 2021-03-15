@@ -1,0 +1,86 @@
+* {
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.cont-1 {
+    background-color: #F98626;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+.image-topp {
+    height: 20rem;
+}
+.cont-2 {
+    background-image: url('/CSS/images/web2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    border-radius: 5px;
+    /* min-height: 50vh; */
+}
+.cont-3 {
+    background-image: url('/CSS/images/app.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    border-radius: 5px;
+    /* min-height: 25vh; */
+}
+.cont-4 {
+    background-image: url('/CSS/images/graphic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    border-radius: 5px;
+    /* min-height: 24vh; */
+}
+.fa {
+    color: #F98626;
+}
+.head {
+    padding-top: 100px;
+}
+.head-1 {
+    padding-top: 50px;
+}
+.imagee {
+    width: 8rem;
+    height: 8rem;
+}
+.cont-5 {
+    background-image: url('/CSS/images/orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cont-6 {
+    position: relative;
+    top: -60px;
+    z-index: -1;
+}
+hr {
+    background-color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .cont-1, .cont-5 {
+        text-align: center;
+    }
+    .head {
+        padding-top: 30px;
+    }
+    .head-1 {
+        padding-top: 15px;
+    }
+}
